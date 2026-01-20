@@ -1,107 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <link rel="stylesheet" href="style.css">
-<title>STATUS: UNSTABLE</title>
-</head>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title>WEBSITE</title>
+    </head>
 <body>
-
-<header>
-SYSTEM STATUS: <span class="glitch">UNSTABLE</span>
-</header>
-
-<div class="log">[00:01] Initializing interface…</div>
-<div class="log">[00:04] Memory leak detected</div>
-<div class="log">[00:07] User still scrolling</div>
-<div class="log">[00:10] Why are you still here?</div>
-
-<div class="warning">
-DO NOT INTERACT WITH THE SYSTEM
-</div>
-
-<button class="button" onclick="spawnError()">CLICK TO CONTINUE</button>
-
-<script>
-let count = 0;
-
-// Meme image URLs
-const memes = [
-  "https://i.pinimg.com/736x/3f/29/cc/3f29ccf9a11695d37cca4921638cf3f5.jpg", // Distracted Boyfriend
-  "https://i.pinimg.com/736x/70/f8/15/70f815cd19412eeb079a42ad2e572c0e.jpg" ,  // Success Kid
-  "https://i.pinimg.com/1200x/ac/59/83/ac59839011483738ca0ea4e61915a551.jpg",  //dog
-  "https://i.pinimg.com/736x/7a/84/01/7a8401729b28640f609425fc6f79b746.jpg", //meme
-  "https://i.pinimg.com/736x/78/0d/53/780d53170c4f7402f5cf7046587c65a1.jpg",
-  "https://i.pinimg.com/736x/1c/b5/94/1cb5945fb707f7f0485282131998c827.jpg",
-  "https://i.pinimg.com/736x/7e/d1/ac/7ed1acb3e925aa3710224f152dea2700.jpg",
-  "https://i.pinimg.com/736x/74/d3/6d/74d36d3bf78409d160d672afe4539597.jpg",
-  "https://i.pinimg.com/736x/7d/b9/3d/7db93d7d26c5afea4126e0a31e0f1468.jpg",
-  "https://i.pinimg.com/736x/6d/d7/45/6dd745610dbefdc0d40985c3d7d974f9.jpg",
-  "https://i.pinimg.com/736x/70/14/46/701446bac10f1d4c5e7ecaf2e42a58d0.jpg",
-  "https://i.pinimg.com/736x/26/f2/68/26f2688b553c6e4789c940b0f6103f77.jpg",
-  "https://i.pinimg.com/1200x/d3/3c/94/d33c94ea0ec6f0f3f461a347f3f05285.jpg",
-  "https://i.pinimg.com/736x/89/c2/f1/89c2f15e9cee5676488d309cf31d073d.jpg",
-  "https://i.pinimg.com/736x/2b/36/f1/2b36f106f74aea254b764e0d5a75fea7.jpg",
-];
-
-// Brain-rot style jokes
-const jokes = [
-  "Bro typed 'sudo' and thought he was God.",
-  "NPC detected: still scrolling.",
-  "WHATS BRO YAPPIN' BOUT YA'.",
-  "Your RAM just rage quit 💀.",
-  "Sigma grindset: breaking the site on purpose.",
-  "Bro thinks he's in the Matrix.",
-  "Keyboard smashing is peak performance.",
-  "You opened Chrome with 47 tabs, brave.",
-  "This error was sponsored by Ohio.",
-  "Bro really said 'lol' IRL."
-];
-
-function spawnError() {
-    count++;
-
-    // Error popup
-    const box = document.createElement("div");
-    box.className = "popup";
-    box.style.top = Math.random() * 80 + "%";
-    box.style.left = Math.random() * 80 + "%";
-    box.innerText = "ERROR " + count + ":Getting Zestyy!?";
-    document.body.appendChild(box);
-
-    // Random meme
-    const meme = document.createElement("img");
-    meme.className = "meme";
-    meme.src = memes[Math.floor(Math.random() * memes.length)];
-    meme.style.top = Math.random() * 80 + "%";
-    meme.style.left = Math.random() * 80 + "%";
-    document.body.appendChild(meme);
-
-    // Random brain-rot joke
-    const joke = document.createElement("div");
-    joke.className = "joke";
-    joke.innerText = jokes[Math.floor(Math.random() * jokes.length)];
-    joke.style.top = Math.random() * 80 + "%";
-    joke.style.left = Math.random() * 80 + "%";
-    document.body.appendChild(joke);
-
-    if (count > 5) {
-        document.body.style.background = "black";
-        document.body.innerHTML += `
-        <div class="warning">
-        SYSTEM OVERRIDDEN<br>
-        YOU CAUSED THIS
-        </div>`;
-    }
-}
-
-// Glitch logs
-setInterval(() => {
-    const log = document.createElement("div");
-    log.className = "log glitch";
-    log.innerText = "[??:??] Something is wrong.";
-    document.body.appendChild(log);
-}, 3000);
-</script>
-
+    <hr>
+    <h1>NATURE'S TREASURE</h1>
+    <hr>
+     <img src="https://i.pinimg.com/1200x/80/b1/ee/80b1eefd9380f89eae69344a4f1e5c1e.jpg" alt= "panda sleeping on a wood"/>
+     <hr>
+    <h2>Panda: Gentle Giants Of China</h2>
+    <h3>
+    Pandas are gentle, bamboo-eating bears found mainly in China. 
+    They are famous for their black-and-white fur and playful nature, 
+    and they symbolize wildlife conservation worldwide.
+    </h3>
+<h3> Diet: Though classified as carnivores, pandas eat 99% bamboo. They may occasionally eat small animals or fish.</h3>
+<hr>
+<h2>WHY PANDAS MATTER</h2>
+<h3>- Cultural symbol: Pandas are considered a national treasure in China.<br>
+- Conservation icon: They represent global efforts to protect endangered species.<br>
+- Ecological role: By eating and spreading bamboo seeds, pandas help maintain forest ecosystems.<br>
+</h3>
+<hr>
+<img src="https://i.pinimg.com/736x/c6/f2/fb/c6f2fb281c0eb791d4ef80e8a43ede9d.jpg" alt= "panda eating bamboo"/>
+<img src="https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2022/06/30/ca6de939-75b4-4adc-a13c-4b26bab43109_8d4d183f.jpg" alt="panda eating bamboo while sitting on a wood"/>
+<hr>
+<img src="https://media.sciencephoto.com/c0/10/64/94/c0106494-800px-wm.jpg" alt="three pandas in one frame, eating grass and relaxing"/>
+<hr>
 </body>
 </html>
