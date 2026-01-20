@@ -1,78 +1,20 @@
-body {
-    margin: 0;
-    background: #0b0b0b;
-    color: #dcdcdc;
-    font-family: monospace;
-    overflow-x: hidden;
+body{
+    text-align:center;
+    font-family:'Arial';
+    background-image: url(https://i.pinimg.com/1200x/3d/1b/89/3d1b890fdda43a6fd72d14fbbe5e364f.jpg);
 }
-header {
-    padding: 40px;
-    text-align: center;
-    font-size: 32px;
-    border-bottom: 2px solid red;
+img{
+    width:550px;
+    height: 350px;
 }
-.glitch {
-    animation: glitch 0.2s infinite;
-    color: red;
+h2{
+    text-align:left;
+    font:size 35px;
 }
-@keyframes glitch {
-    0% { transform: translate(0); }
-    20% { transform: translate(-2px, 2px); }
-    40% { transform: translate(2px, -2px); }
-    60% { transform: translate(-2px, -2px); }
-    80% { transform: translate(2px, 2px); }
-    100% { transform: translate(0); }
+h3{
+    text-align:left;
+    font:size 30px;
 }
-.log {
-    padding: 20px;
-    border-bottom: 1px dashed #333;
-}
-.warning {
-    color: black;
-    background: red;
-    padding: 15px;
-    text-align: center;
-    font-weight: bold;
-    animation: blink 0.5s infinite alternate;
-}
-@keyframes blink {
-    from { opacity: 1; }
-    to { opacity: 0.4; }
-}
-.popup {
-    position: fixed;
-    background: black;
-    color: lime;
-    border: 2px solid rgb(51, 255, 0);
-    padding: 15px;
-    font-size: 14px;
-}
-.button {
-    margin: 40px;
-    padding: 15px 30px;
-    background: transparent;
-    border: 2px solid red;
-    color: red;
-    font-size: 18px;
-    cursor: pointer;
-}
-.button:hover {
-    background: red;
-    color: black;
-}
-.meme {
-    position: fixed;
-    max-width: 150px;
-    border: 3px solid #ff00ff;
-    box-shadow: 0 0 10px #00ffff;
-}
-.joke {
-    position: fixed;
-    background: #111;
-    color: #39ff14;
-    border: 2px dashed #ff00ff;
-    padding: 10px;
-    font-size: 14px;
-    max-width: 220px;
-    text-shadow: 1px 1px #00ffff;
+h1{
+    font: size 40px;
 }
